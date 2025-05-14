@@ -1,5 +1,5 @@
 let speech = new SpeechSynthesisUtterance();
-let voices = ["Microsoft David - English (United States)", "Microsoft Ravi - English (India)"];
+let voices = [];
 let voiceSelect = document.querySelector("select");
 
 window.speechSynthesis.onvoiceschanged = () => {
